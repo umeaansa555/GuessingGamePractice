@@ -37,12 +37,12 @@ namespace GuessingGamePractice
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(101, 47);
+            this.label1.Location = new System.Drawing.Point(103, 47);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(174, 13);
+            this.label1.Size = new System.Drawing.Size(177, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "Enter a number between 1 and 100";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // inputBox
             // 
@@ -53,12 +53,13 @@ namespace GuessingGamePractice
             // 
             // outputLabel
             // 
-            this.outputLabel.AutoSize = true;
-            this.outputLabel.Location = new System.Drawing.Point(101, 190);
+            this.outputLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel.Location = new System.Drawing.Point(76, 188);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(82, 13);
+            this.outputLabel.Size = new System.Drawing.Size(233, 48);
             this.outputLabel.TabIndex = 2;
             this.outputLabel.Text = "Enter a number.";
+            this.outputLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // enterButton
             // 
